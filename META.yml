@@ -1,24 +1,18 @@
 --- #YAML:1.0
-name:               HTML-Examiner
-version:            0.01_1
-abstract:           verify HTML code using custom defined rules
-author:
+name:                HTML-Examiner
+version:             0.01_2
+abstract:            verify HTML code using custom defined rules
+license:             perl
+author:              
     - Nuno Carvalho <smash@cpan.org>
-license:            perl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
-build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Template:    0
-    Test::More:  0
-    XML::DT:     0
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.54
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+    Parse::Yapp:                   0
+    Parse::Yapp::Driver:           0
+    Template:                      0
+    Test::More:                    0
+    XML::DT:                       0
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
